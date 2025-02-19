@@ -17,11 +17,14 @@
   </dependencies>
   <build>
     <finalName>Maven-webapp</finalName>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.4.0</version> <!-- Latest stable version -->
-</plugin>
+<plugins>
+            <!-- Add your Maven WAR Plugin here -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.4.0</version>  <!-- Use latest stable version -->
+            </plugin>
+</plugins>
 
   </build>
 </project>
